@@ -1,31 +1,36 @@
 # Task Admin Dashboard
 
-![Dashboard Preview](./public/images/dashboard-preview.png) 
-*Main Dashboard View*
-
-![Posts Management](./public/images/posts-management.png) 
-*Posts Management Section*
-
-![Login Screen](./public/images/login-screen.png) 
-*Login Page*
+![Dashboard Preview](/public/screenshots/dashboard.png) | ![Posts Management](/public/screenshots/posts.png) | ![Login Screen](/public/screenshots/login.png)
+:-------------------------:|:-------------------------:|:-------------------------:
+*Main Dashboard View*  |  *Posts Management*  |  *Login Page*
 
 A modern admin dashboard built with Next.js and Firebase, featuring comprehensive content management and analytics.
 
 ## ✨ Features
 
 ### 📊 Dashboard
-- Real-time analytics
-- Monthly statistics tracking
-- Quick navigation
+- Yearly analytics visualization (Jan-Dec)
+- Quick stats overview (Components: 5065+)
+- Intuitive navigation sidebar
+  - Dashboard
+  - Posts
+  - Categories
+  - Settings (Profile, Billing)
 
-### 📝 Content Management
-- Post creation/editing
-- Author tracking
-- Publication date management
+### 📝 Posts Management
+- Clean tabular display of all posts
+- Key information at a glance:
+  - Title
+  - Author
+  - Date
+  - Views
+- Quick edit functionality
 
-### 🔐 Secure Authentication
-- Email/password login
-- Protected admin routes
+### 🔐 Authentication
+- Secure email/password login
+- Clean, minimalist interface
+- Easy signup flow for new users
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 14, React 18
